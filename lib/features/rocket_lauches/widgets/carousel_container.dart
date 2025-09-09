@@ -17,7 +17,9 @@ class CarouselContainer extends StatelessWidget {
     return SizedBox(
       height: screenHeigh * 0.35,
       width: screenWidth,
-      child: Image.asset(imageAsset, fit: BoxFit.cover),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(16),
+        child: Image.asset(imageAsset, fit: BoxFit.cover)),
     );
   }
 }
