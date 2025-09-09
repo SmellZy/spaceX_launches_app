@@ -27,7 +27,7 @@ class RocketLaunch {
     );
   }
   
-  String get dateDmy => '${dateUtc.day}:${dateUtc.month}:${dateUtc.year}';
+  String get dateDmy => '${dateUtc.day}/${dateUtc.month}/${dateUtc.year}';
   String get timeHmAmPm {
     final h = dateUtc.hour;
     final m = dateUtc.minute.toString().padLeft(2, '0');
