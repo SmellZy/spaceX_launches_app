@@ -1,6 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:dio/dio.dart';
-import 'package:rockets_app/repositories/rocket_launches/models/rocket_launch_model.dart';
 import 'package:rockets_app/repositories/rocket_launches/rocket_launch.dart';
 
 class RocketLaunchesRepository implements AbstractRocketLaunchRepository {
